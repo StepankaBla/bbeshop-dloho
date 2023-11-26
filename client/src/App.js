@@ -8,6 +8,7 @@ import Order from "./pages/Order/Order";
 import Contact from "./pages/Contact/Contact";
 import Cookies from "./pages/Cookies/Cookies";
 import Questions from "./pages/Questions/Questions";
+import Return from "./pages/Return/Return";
 import "./app.scss";
 import { motion, AnimatePresence } from "framer-motion";
 import AboutUs from "./pages/About/AboutUs";
@@ -92,6 +93,10 @@ const router = createBrowserRouter([
       {
         path: "/questions",
         element: <Questions />,
+      },
+      {
+        path: "/return",
+        element: <Return />,
       },
     ],
     

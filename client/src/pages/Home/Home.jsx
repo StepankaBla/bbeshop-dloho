@@ -23,33 +23,33 @@ export const Home = ({}) => {
             <MDBCarouselItem
               className="w-100 d-block"
               itemId={1}
-              src="/img/ic1.jpg"
+              src="/img/1.jpg"
               alt="..."
             >
-              <p>1. Choose product</p>
+             
             </MDBCarouselItem>
 
             <MDBCarouselItem
               className="w-100 d-block"
               itemId={2}
-              src="/img/ic2.jpg"
+              src="/img/2.jpg"
               alt="..."
             >
-              <p>2. Add to cart</p>
+             
             </MDBCarouselItem>
             <MDBCarouselItem
               className="w-100 d-block"
               itemId={3}
-              src="/img/ic3.jpg"
+              src="/img/3.jpg"
             >
-              3. Pay
+             
             </MDBCarouselItem>
             <MDBCarouselItem
               className="w-100 d-block"
               itemId={4}
-              src="/img/ic4.jpg"
+              src="/img/4.jpg"
             >
-              4. Pick up the package
+              
             </MDBCarouselItem>
           </MDBCarousel>
         </div>

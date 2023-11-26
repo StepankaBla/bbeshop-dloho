@@ -3,8 +3,17 @@
     .contentContainer1 {
         padding-top: 1rem;
         height: auto;
-        width: 70%;
+        width: 50%;
         margin: 6rem auto;
+         .que{
+          display: flex;
+          
+          img{
+            width: 100%; 
+            height: auto; 
+          }
+         }
+
         h2 {
             font-size: 1.3rem;
             line-height: 1;
@@ -15,7 +24,7 @@
           .content_box1 {
             margin: auto;
             width: 100%;
-            border: 3px solid black;
+           
             padding: 10px;
           }
           .banner {
@@ -57,12 +66,13 @@
 
 
 @media screen and (max-width: 1400px) {
-  .contentContainer {
-    width: 90%;
-    .content_box {
-      font-size: 1rem;
-    }
-  }
+  .about_container{
+    margin-top: 15rem;
+    .contentContainer1 {
+        padding-top: 1rem;
+        height: auto;
+        width: 80%;
+        margin: 6rem auto;}}
 }
 @media screen and (max-width: 1000px) {
   h1 {
@@ -72,7 +82,7 @@
     grid-template-columns: 1fr;
     font-size: 1.2rem;
     gap: 4rem;
-    .content_box_left {
+    .content_box_left_pic {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -91,11 +101,26 @@
     }
   }
 }
-@media screen and (max-width: 800px) {
-  .contentContainer {
-    margin-top: 0;
+@media screen and (max-width: 750px) {
+  .about_container{
+    margin-top: 8rem;}
+
+
+  .contentContainer1  {
+    margin-top: -3rem;
+
+       .que{
+        display: flex;
+        width: 140%;
+        margin-left: -20%;
+        img{
+          width: 130%; 
+          height: auto; 
+        }
+       }
+    
+      
+    }
   }
-  .content_box_left {
-    margin-bottom: 1rem;
-  }
-}
+
+

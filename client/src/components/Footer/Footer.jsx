@@ -98,20 +98,12 @@ export const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <a href="#!" className="text-white">
+                <Link className="text-white" to="/return">
                     Returned goods
-                  </a>
+                  </Link>
                 </li>
-                <li>
-                  <a href="#!" className="text-white">
-                    General Terms and Conditions
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-white">
-                    Terms of personal data protection
-                  </a>
-                </li>
+             
+              
               </ul>
             </MDBCol>
           </MDBRow>
