@@ -1,0 +1,40 @@
+.filterItem {
+  height: auto;
+  width: 63%;
+  margin: auto;
+  position: relative;
+  top: 4rem;
+.inputItem{
+ padding: 1rem;
+ font-weight: 800;
+ label{
+  padding-left: 1rem;
+ }
+}
+}
+.bannerProduct {
+  margin-top: 18rem;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  padding-top: 1.5rem;
+  color: #c9a0a8;
+}
+@media screen and (max-width: 768px) {
+  .bannerProduct{
+    margin-top: 9rem;
+    h2{
+      font-size: 1.3rem;
+    }
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .bannerProduct{
+    margin-top: 6rem;
+    h2{
+      font-size: 1rem;
+    }
+  }
+
+}
