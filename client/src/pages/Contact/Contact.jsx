@@ -48,7 +48,7 @@ const Contact = () => {
         <input id="message" type="submit" value="Send" />
       </form>
       <div className="imgContainer">
-        <img data-aos="fade-right" src="/img/ig.png" alt="" className="phone" />
+        <img data-aos="fade-right" src="/img/igg.png" alt="" className="phone" />
         <div data-aos="fade-left" className="iconContainer">
           <div className="info">
             <img src="/img/git.png" alt="" />

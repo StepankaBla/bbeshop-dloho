@@ -83,7 +83,7 @@ export const Footer = () => {
                 </li>
                 <li>
                   <a href="#!" className="text-white">
-                    <FaMailBulk /> stepina.blaa@seznam.cz
+                    <FaMailBulk /> bbeshop.art@gmail.com
                   </a>
                 </li>
               </ul>
@@ -98,24 +98,29 @@ export const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                <Link className="text-white" to="/return">
+                  <Link className="text-white" to="/return">
                     Returned goods
                   </Link>
                 </li>
-             
-              
               </ul>
             </MDBCol>
           </MDBRow>
         </section>
         <section className="mb-4">
-          <MDBIcon fab icon="facebook-f ic" />
+          <a href="https://github.com/StepankaBla" >
+            {" "}
+            <MDBIcon fab icon="github ic" color="black" />
+          </a>
 
-          <MDBIcon fab icon="instagram ic" />
+          <a href=" https://www.instagram.com/bb__art/">
+            {" "}
+            <MDBIcon fab icon="instagram ic" color="black"/>
+          </a>
 
-          <MDBIcon fab icon="linkedin-in ic" />
-
-          <MDBIcon fab icon="github ic" />
+          <a href="https://www.linkedin.com/in/%C5%A1t%C4%9Bp%C3%A1nka-bla%C5%BEkov%C3%A1-3b9733262/">
+            {" "}
+            <MDBIcon fab icon="linkedin-in ic"color="black" />
+          </a>
         </section>
       </MDBContainer>
 
