@@ -36,8 +36,23 @@
 
 @media screen and (max-width: 1600px) {
   .heroSection {
-    width: 90%;
+    width: 80%;
   }
+  .heroSection_box {
+    font-size: 1rem;
+  }
+  .heroSection_box_left{
+    h2 {
+      font-size: 2rem;
+      line-height: 1;
+      padding-bottom: 6rem;
+      color: #c9a0a8;
+    }
+  .heroSection{
+    padding-top: 5rem;
+  }
+  }
+
 }
 .respHero1 {
   opacity: 0;
