@@ -90,6 +90,10 @@ export const Product = () => {
                 alt="brown frame"
                 onClick={(e) => setSelectedImg("wooden")}
               />
+
+
+              <div><span onClick={(e) => setSelectedImg("img")} >-none-</span></div>
+
             </div>
             <div className="addCont">
               <button
